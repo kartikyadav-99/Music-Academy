@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: rgb(60, 94, 99);
+    padding: 35px;
+
+
+}
+header h1{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 33px;
+}
+
+
+
+
+nav{
+    background-color: #1d1d1aec;
+    overflow: hidden;
+    display: flex;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+   display:block;
+    color: rgb(250, 251, 245);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+h2{
+    padding: 20px;
+
+}
+section:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+section{
+    min-height: 100vh;
+
+}
+video{
+    padding: 10px;
+
+}
+
+iframe {
+   height: 75vh;
+
+}
+img{
+    padding:10 px;
+
+}
+section h5{
+    margin: 30px;
+}
+
+footer{
+    display: flex;
+    background-color:#0a0a0ad5;
+    overflow: hidden;
+   
+}
+
+
+footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: right;
+    float: left;
+    color: rgb(254, 254, 254);
+
+}
+
+
+
+
+section h2 span{
+    background: linear-gradient(to right,#f5d837,#bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: rgb(1, 1, 1);
+}
+
+.profile{
+    border-radius: 50%;
+}
+.profile_name{
+    font-size: 2em;
+    font-weight: 900;    
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+.flex-align-right{
+    margin-left:auto;
+}
+.menu-btn:hover{
+    color: beige;
+   
+}
+.sm-handle a{
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and(max-width:700px) {
+    nav{
+        flex-direction:column;
+    }
+
+    .flex-align-right{
+        margin-left:0;
+    }
+     footer{
+       flex-direction: column;
+     }
+    
+}
