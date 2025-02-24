@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
    ```
-   git clone https://github.com/yourusername/music-website.git
+   git clone [https://github.com/kartikyadav-99/Music-Academy.git]
    ```
 
 2. Open the project directory in your preferred code editor.
